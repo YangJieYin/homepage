@@ -67,7 +67,7 @@
         h2 {
             margin-top: 60px;
             color: #2980b9;
-            font-family: Georgia, serif;
+            font-family: Arial, sans-serif;
 	    margin-bottom: 5px; 
         }
 
@@ -133,6 +133,8 @@
             margin-left: 20px;  /* 图片与文字之间的间距 */
             width: 250px;       /* 设置图片宽度 */
             height: auto;       /* 保持图片比例 */
+	    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+            border-radius: 10px;  /* 设置圆角半径，数值越大圆角越明显 */
         }
 
         /* 新增：paper/slides 图标链接样式（保证对齐和间距） */
@@ -150,6 +152,9 @@
             margin-right: 0px;      /* 图标与文字之间的小间距 */
             margin-left: 0;         /* 覆盖图片的全局margin-left，避免多余间距 */
             vertical-align: bottom; /* 图标与链接文字居中对齐 */
+	    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+            border-radius: 0px;  /* 设置圆角半径，数值越大圆角越明显 */
+
         }
 
 	/* 专属标题样式，字号可按需修改 */
@@ -253,16 +258,12 @@
             <!-- a href="https://onlinelibrary.wiley.com/doi/10.1111/cgf.70298" target="_blank"-->
                 <strong class="pub-title">Improving the Watertightness of Parametric Surface/Surface Intersection</strong>
             </a><br>
-            Yuqing Wang, Xiaohong Jia, <strong>Jieyin Yang</strong>, Bolun Wang, Pengbo Bo, Yang Liu<br>
+            Yuqing Wang,  <a href="http://www.mmrc.iss.ac.cn/~xhjia/" target="_blank">Xiaohong Jia</a>, <strong>Jieyin Yang</strong>,  <a href="https://wangbolun300.github.io/" target="_blank">Bolun Wang</a>,  <a href="https://homepage.hit.edu.cn/bopengbo" target="_blank">Pengbo Bo</a>,  <a href="https://xueyuhanlang.github.io/" target="_blank">Yang Liu</a><br>
             <i>Computer Graphics Forum, 2025</i><br>
             <!-- 新增：最后一行添加 paper 和 slides 带图标链接 -->
             <a href="https://onlinelibrary.wiley.com/doi/10.1111/cgf.70298" target="_blank" class="pub-link">
                 <img src="./icons/pdf.png" alt="Paper PDF">
              paper
-            </a>
-            <a href="https://onlinelibrary.wiley.com/doi/10.1111/cgf.70298" target="_blank" class="pub-link">
-                <img src="./icons/ppt.png" alt="Slides">
-             slides
             </a>
         </div>
         <img src="./CGF2025/headpic.jpg" alt="Headpic" />
@@ -271,11 +272,15 @@
         <div class="publication">
             <div>
                 <!--a href="https://dl.acm.org/doi/10.1145/3763308" target="_blank"--><strong class="pub-title">Overlap Region Extraction of Two NURBS Surfaces</strong></a><br>
-                <strong>Jieyin Yang</strong>, Xiaohong Jia<br>
-                <i>ACM Transactions on Graphics (Siggraph Asia), Vol. 44, 2025</i><br>
+                <strong>Jieyin Yang</strong>,  <a href="http://www.mmrc.iss.ac.cn/~xhjia/" target="_blank">Xiaohong Jia</a><br>
+                <i class="caros-font">ACM Transactions on Graphics (Siggraph Asia), Vol. 44, 2025</i><br>
 		<a href="https://dl.acm.org/doi/10.1145/3763308" target="_blank" class="pub-link">
                 <img src="./icons/pdf.png" alt="Paper PDF">
              paper
+            </a>
+		 <a href="./SIGA2025/SigA25-slides.pdf" target="_blank" class="pub-link">
+                <img src="./icons/ppt.png" alt="Slides">
+             slides
             </a>
             </div>
             <img src="./SIGA2025/headpic.jpg" alt="Headpic" />
@@ -284,11 +289,15 @@
         <div class="publication">
             <div>
                 <!--a href="https://dl.acm.org/doi/abs/10.1145/3730908" target="_blank"--><strong class="pub-title">Boolean Operation for CAD Models Using a Hybrid Representation</strong></a><br>
-                Yingyu Yang, Xiaohong Jia, Bolun Wang, <strong>Jieyin Yang</strong>, Shiqing Xin, Dong-Ming Yan<br>
+                Yingyu Yang,  <a href="http://www.mmrc.iss.ac.cn/~xhjia/" target="_blank">Xiaohong Jia</a>,  <a href="https://wangbolun300.github.io/" target="_blank">Bolun Wang</a>, <strong>Jieyin Yang</strong>,  <a href="https://irc.cs.sdu.edu.cn/~shiqing/index.html" target="_blank">Shiqing Xin</a>,  <a href="https://sites.google.com/site/yandongming/dong-ming-yans-homepage" target="_blank">Dong-Ming Yan</a><br>
                 <i>ACM Transactions on Graphics (Siggraph), Vol. 44, 2025</i><br>
 		<a href="https://dl.acm.org/doi/abs/10.1145/3730908" target="_blank" class="pub-link">
                 <img src="./icons/pdf.png" alt="Paper PDF">
              paper
+            </a>
+                <a href="./SIG2025/SIG25_slides.pdf" target="_blank" class="pub-link">
+                <img src="./icons/ppt.png" alt="Slides">
+             slides
             </a>
             </div>
             <img src="./SIG2025/headpic.jpg" alt="Headpic" />
@@ -297,7 +306,7 @@
 <div class="publication">
             <div>
                 <!--a href="https://www.sciencedirect.com/science/article/pii/S0167839625000317" target="_blank"--><strong class="pub-title">Computing the Intersection of Two Ellipsoids Based on a Fast Algebraic Topology Determination Strategy</strong></a><br>
-                Xiao Chu, Kai Li, Xiaohong Jia, <strong>Jieyin Yang</strong>, Jiarui Kang<br>
+                Xiao Chu,  <a href="https://mathkli.github.io/" target="_blank">Kai Li</a>,  <a href="http://www.mmrc.iss.ac.cn/~xhjia/" target="_blank">Xiaohong Jia</a>, <strong>Jieyin Yang</strong>, Jiarui Kang<br>
                 <i>Computer Aided Geometric Design (GMP), Vol. 119, 2025</i><br>
 		<a href="https://www.sciencedirect.com/science/article/pii/S0167839625000317" target="_blank" class="pub-link">
                 <img src="./icons/pdf.png" alt="Paper PDF">
@@ -315,7 +324,7 @@
         <div class="publication">
             <div>
                 <!--a href="https://www.sciencedirect.com/science/article/abs/pii/S0097849323002911?fr=RR-2&ref=pdf_download&rr=86d8a42d1ceb9b56" target="_blank"--><strong  class="pub-title">Accurate and Robust Registration of Low Overlapping Point Clouds</strong></a><br>
-                <strong>Jieyin Yang</strong>, Mingyang Zhao, Yingrui Wu, Xiaohong Jia<br>
+                <strong>Jieyin Yang</strong>,  <a href="https://zikai1.github.io/" target="_blank">Mingyang Zhao</a>, Yingrui Wu,  <a href="http://www.mmrc.iss.ac.cn/~xhjia/" target="_blank">Xiaohong Jia</a><br>
                 <i>Computers & Graphics, 2024</i><br>
 		<a href="https://www.sciencedirect.com/science/article/abs/pii/S0097849323002911?fr=RR-2&ref=pdf_download&rr=86d8a42d1ceb9b56" target="_blank" class="pub-link">
                 <img src="./icons/pdf.png" alt="Paper PDF">
@@ -330,11 +339,16 @@
         <div class="publication">
             <div>
                 <!--a href="https://dl.acm.org/doi/abs/10.1145/3618349" target="_blank"--><strong class="pub-title">Topology Guaranteed B-Spline Surface-Surface Intersection</strong></a><br>
-                <strong>Jieyin Yang</strong>, Xiaohong Jia, Dong-Ming Yan<br>
+                <strong>Jieyin Yang</strong>,  <a href="http://www.mmrc.iss.ac.cn/~xhjia/" target="_blank">Xiaohong Jia</a>,  <a href="https://sites.google.com/site/yandongming/dong-ming-yans-homepage" target="_blank">Dong-Ming Yan</a><br>
                 <i>ACM Transactions on Graphics (Siggraph Asia), Vol. 42, 2023</i><br>
 		<a href="https://dl.acm.org/doi/abs/10.1145/3618349" class="pub-link">
                 <img src="./icons/pdf.png" alt="Paper PDF">
              paper
+            </a>
+            </a>
+                <a href="./ACMTOG2023/SIGA23-slides.pdf" target="_blank" class="pub-link">
+                <img src="./icons/ppt.png" alt="Slides">
+             slides
             </a>
             </div>
             <img src="./ACMTOG2023/pipeline.jpg" alt="Headpic" />
